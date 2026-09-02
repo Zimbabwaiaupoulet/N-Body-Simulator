@@ -20,7 +20,7 @@ int main() {
   const double PI = std::acos(-1.0);
   const double G = 4.0 * PI * PI;
   const double epsilon = 0.0;
-  const double dt = 0.001;
+  const double dt = 0.000001;
 
   std::vector<Corps> systeme;
 

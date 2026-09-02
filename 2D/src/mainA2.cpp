@@ -11,7 +11,7 @@ int main() {
   const double PI = std::acos(-1.0);
   const double G = 4.0 * PI * PI;
   const double epsilon = 0.1;
-  const double dt = 0.001;
+  const double dt = 0.01;
 
   const double e_perso = 0.2;
   const double a = 1.0;
