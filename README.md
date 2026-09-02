@@ -72,7 +72,7 @@ make runB3         # Lance le benchmark
 Les résultats CSV sont générés dans `2D/csv/`. Pour visualiser :
 
 ```bash
-cd.. #pour être a la racine
+cd ..              #pour être a la racine
 python traceur.py
 ```
 
