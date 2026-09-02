@@ -1,4 +1,4 @@
-#include "Vector2D.hpp"
+#include "../headers/Vector2D.hpp"
 #include <cmath>
 
 Vector2D add2D(Vector2D v1, Vector2D v2) {
@@ -22,7 +22,7 @@ Vector2D mult2D(Vector2D v, double factor) {
   return nv;
 }
 
-double norm2D(Vector2D v) { return (sqrt((v.x * v.x) + (v.y * v.y))); };
+double norm2D(Vector2D v) { return (std::sqrt((v.x * v.x) + (v.y * v.y))); };
 
 double scalar2D(Vector2D v1, Vector2D v2) {
   return ((v1.x * v2.y) + (v1.y * v2.x));
